@@ -95,7 +95,7 @@ public class Principal02 {
         }
 
         // Un objeto de tipo Cuenta
-        Cuenta miCuenta = new Cuenta("Luis Andrade", lista, 10);
+        Cuenta miCuenta = new Cuenta("Jean Panamito", lista, 1);
         miCuenta.establecerSubtotal();
         miCuenta.calcularValorCancelar();
         System.out.printf("%s\n", miCuenta);
